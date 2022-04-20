@@ -1,0 +1,476 @@
+{
+  "status_code": 200,
+  "data": [
+    {
+      "image": "gmc.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/gmc.jpg",
+      "name_ar": "جى ايم سىي",
+      "id": 1,
+      "name_en": "GMC"
+    },
+    {
+      "image": "mg.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/mg.jpg",
+      "name_ar": "إم جي",
+      "id": 2,
+      "name_en": "MG"
+    },
+    {
+      "image": "aston.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/aston.jpg",
+      "name_ar": "أستون مارتنن",
+      "id": 3,
+      "name_en": "Aston Martin"
+    },
+    {
+      "image": "isuzu.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/isuzu.jpg",
+      "name_ar": "ايسوزو",
+      "id": 4,
+      "name_en": "Isuzu"
+    },
+    {
+      "image": "infiniti.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/infiniti.jpg",
+      "name_ar": "إنفينيتي",
+      "id": 5,
+      "name_en": "Infiniti"
+    },
+    {
+      "image": "opel.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/opel.jpg",
+      "name_ar": "أوبل",
+      "id": 6,
+      "name_en": "Opel"
+    },
+    {
+      "image": "audi.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/audi.jpg",
+      "name_ar": "أودي",
+      "id": 7,
+      "name_en": "Audi"
+    },
+    {
+      "image": "proton.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/proton.jpg",
+      "name_ar": "بروتون",
+      "id": 8,
+      "name_en": "proton"
+    },
+    {
+      "image": "bentley.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/bentley.jpg",
+      "name_ar": "بنتلي",
+      "id": 9,
+      "name_en": "Bentley"
+    },
+    {
+      "image": "bugatti.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/bugatti.jpg",
+      "name_ar": "بوجاتي",
+      "id": 10,
+      "name_en": "Bugatti"
+    },
+    {
+      "image": "porshce.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/porshce.jpg",
+      "name_ar": "بورش",
+      "id": 11,
+      "name_en": "Porsche"
+    },
+    {
+      "image": "bmw.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/bmw.jpg",
+      "name_ar": "بي إم دبليو",
+      "id": 12,
+      "name_en": "BMW"
+    },
+    {
+      "image": "peugeot.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/peugeot.jpg",
+      "name_ar": "بيجو",
+      "id": 13,
+      "name_en": "Peugeot"
+    },
+    {
+      "image": "buick.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/buick.jpg",
+      "name_ar": "بيوك",
+      "id": 14,
+      "name_en": "Buick"
+    },
+    {
+      "image": "tata.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/tata.jpg",
+      "name_ar": "تاتا موتورز",
+      "id": 15,
+      "name_en": "Tata"
+    },
+    {
+      "image": "chery.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/chery.jpg",
+      "name_ar": "شيري",
+      "id": 16,
+      "name_en": "Chery"
+    },
+    {
+      "image": "toyota.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/toyota.jpg",
+      "name_ar": "تويوتا",
+      "id": 17,
+      "name_en": "Toyota"
+    },
+    {
+      "image": "jaguar.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/jaguar.jpg",
+      "name_ar": "جاغوار",
+      "id": 18,
+      "name_en": "Jaguar"
+    },
+    {
+      "image": "jeep.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/jeep.jpg",
+      "name_ar": "جيب",
+      "id": 19,
+      "name_en": "Jeep"
+    },
+    {
+      "image": "geely.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/geely.jpg",
+      "name_ar": "جيلي",
+      "id": 20,
+      "name_en": "Geely"
+    },
+    {
+      "image": "daewoo.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/daewoo.jpg",
+      "name_ar": "دايو",
+      "id": 21,
+      "name_en": "Daewoo"
+    },
+    {
+      "image": "dodge.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/dodge.jpg",
+      "name_ar": "دودج",
+      "id": 22,
+      "name_en": "Dodge"
+    },
+    {
+      "image": "diahtso.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/diahtso.jpg",
+      "name_ar": "ديهاتسو",
+      "id": 23,
+      "name_en": "Daihatsu"
+    },
+    {
+      "image": "rolls.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/rolls.jpg",
+      "name_ar": "رولز رويس",
+      "id": 24,
+      "name_en": "Rolls Royce"
+    },
+    {
+      "image": "reno.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/reno.jpg",
+      "name_ar": "رينو",
+      "id": 25,
+      "name_en": "Renault"
+    },
+    {
+      "image": "saab.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/saab.jpg",
+      "name_ar": "ساب",
+      "id": 26,
+      "name_en": "Saab"
+    },
+    {
+      "image": "SsangYong.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/SsangYong.jpg",
+      "name_ar": "سانج يونج",
+      "id": 27,
+      "name_en": "Ssangyong"
+    },
+    {
+      "image": "scoda.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/scoda.jpg",
+      "name_ar": "سكودا",
+      "id": 28,
+      "name_en": "Skoda"
+    },
+    {
+      "image": "subaro.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/subaro.jpg",
+      "name_ar": "سوبارو",
+      "id": 29,
+      "name_en": "Subaru"
+    },
+    {
+      "image": "suzuki.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/suzuki.jpg",
+      "name_ar": "سوزوكي",
+      "id": 30,
+      "name_en": "Suzuki"
+    },
+    {
+      "image": "seat.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/seat.jpg",
+      "name_ar": "سيات",
+      "id": 31,
+      "name_en": "Seat"
+    },
+    {
+      "image": "cetroen.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/cetroen.jpg",
+      "name_ar": "سيتروين",
+      "id": 32,
+      "name_en": "Citroen"
+    },
+    {
+      "image": "chevrolet.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/chevrolet.jpg",
+      "name_ar": "شيفروليه",
+      "id": 33,
+      "name_en": "Chevrolet"
+    },
+    {
+      "image": "ford.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/ford.jpg",
+      "name_ar": "فورد",
+      "id": 34,
+      "name_en": "Ford"
+    },
+    {
+      "image": "volvo.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/volvo.jpg",
+      "name_ar": "فولفو",
+      "id": 35,
+      "name_en": "Volvo"
+    },
+    {
+      "image": "volks.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/volks.jpg",
+      "name_ar": "فولكس واجن",
+      "id": 36,
+      "name_en": "Volkswagen"
+    },
+    {
+      "image": "fiat.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/fiat.jpg",
+      "name_ar": "فيات",
+      "id": 37,
+      "name_en": "Fiat"
+    },
+    {
+      "image": "ferari.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/ferari.jpg",
+      "name_ar": "فيراري",
+      "id": 38,
+      "name_en": "Ferrari"
+    },
+    {
+      "image": "cadilac.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/cadilac.jpg",
+      "name_ar": "كاديلاك",
+      "id": 39,
+      "name_en": "Cadillac"
+    },
+    {
+      "image": "chrysler.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/chrysler.jpg",
+      "name_ar": "كرايسلر",
+      "id": 40,
+      "name_en": "Chrysler"
+    },
+    {
+      "image": "kia.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/kia.jpg",
+      "name_ar": "كيا",
+      "id": 41,
+      "name_en": "Kia"
+    },
+    {
+      "image": "lamborghini.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/lamborghini.jpg",
+      "name_ar": "لامبورغيني",
+      "id": 42,
+      "name_en": "Lamborghini"
+    },
+    {
+      "image": "landrover.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/landrover.jpg",
+      "name_ar": "لاند روفر",
+      "id": 43,
+      "name_en": "land Rover"
+    },
+    {
+      "image": "lexus.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/lexus.jpg",
+      "name_ar": "لكزس",
+      "id": 44,
+      "name_en": "Lexus"
+    },
+    {
+      "image": "lincoln.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/lincoln.jpg",
+      "name_ar": "لنكولن",
+      "id": 45,
+      "name_en": "Lincoln"
+    },
+    {
+      "image": "mazda.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/mazda.jpg",
+      "name_ar": "مازدا",
+      "id": 46,
+      "name_en": "Mazda"
+    },
+    {
+      "image": "maserati.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/maserati.jpg",
+      "name_ar": "مازيراتي",
+      "id": 47,
+      "name_en": "Maserati"
+    },
+    {
+      "image": "mercids.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/mercids.jpg",
+      "name_ar": "مرسيدس",
+      "id": 48,
+      "name_en": "Mercedes Benz"
+    },
+    {
+      "image": "mitsubishi.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/mitsubishi.jpg",
+      "name_ar": "ميتسوبيشي",
+      "id": 49,
+      "name_en": "Mitsubishi"
+    },
+    {
+      "image": "merecory.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/merecory.jpg",
+      "name_ar": "ميركوري",
+      "id": 50,
+      "name_en": "Mercury"
+    },
+    {
+      "image": "nissan.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/nissan.jpg",
+      "name_ar": "نيسان",
+      "id": 51,
+      "name_en": "Nissan"
+    },
+    {
+      "image": "hummer.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/hummer.jpg",
+      "name_ar": "همر",
+      "id": 52,
+      "name_en": "Hummer"
+    },
+    {
+      "image": "honda.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/honda.jpg",
+      "name_ar": "هوندا",
+      "id": 53,
+      "name_en": "Honda"
+    },
+    {
+      "image": "hunday.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/hunday.jpg",
+      "name_ar": "هيونداي",
+      "id": 54,
+      "name_en": "Hyundai"
+    },
+    {
+      "image": "baic.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/baic.jpg",
+      "name_ar": "بايك",
+      "id": 55,
+      "name_en": "BAIC"
+    },
+    {
+      "image": "changan.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/changan.jpg",
+      "name_ar": "شانجان",
+      "id": 56,
+      "name_en": "Changan"
+    },
+    {
+      "image": "FAW.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/FAW.jpg",
+      "name_ar": "فاو",
+      "id": 57,
+      "name_en": "FAW"
+    },
+    {
+      "image": "foton.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/foton.jpg",
+      "name_ar": "فوتون",
+      "id": 58,
+      "name_en": "Foton"
+    },
+    {
+      "image": "haval.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/haval.jpg",
+      "name_ar": "هافال",
+      "id": 59,
+      "name_en": "HAVAL"
+    },
+    {
+      "image": "Great-wall.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/Great-wall.jpg",
+      "name_ar": "جريت وول",
+      "id": 60,
+      "name_en": "Great Wall"
+    },
+    {
+      "image": "ram.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/ram.jpg",
+      "name_ar": "رام",
+      "id": 61,
+      "name_en": "RAM"
+    },
+    {
+      "image": "alfa_romeo.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/alfa_romeo.jpg",
+      "name_ar": "ألفا روميو",
+      "id": 62,
+      "name_en": "Alfa Romeo"
+    },
+    {
+      "image": "jac_motors.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/jac_motors.jpg",
+      "name_ar": "جاك",
+      "id": 63,
+      "name_en": "GAC"
+    },
+    {
+      "image": "MINI.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/MINI.jpg",
+      "name_ar": "ميني",
+      "id": 64,
+      "name_en": "MINI"
+    },
+    {
+      "image": "CMC.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/CMC.jpg",
+      "name_ar": "سي ام سي",
+      "id": 65,
+      "name_en": "CMC"
+    },
+    {
+      "image": "BYD.jpg",
+      "image_url": "https://provider.test.carefer.co/storage/brands/BYD.jpg",
+      "name_ar": "بي واي دي",
+      "id": 66,
+      "name_en": "BYD"
+    },
+    {
+      "image": "",
+      "image_url": "",
+      "name_ar": "ريجاتا",
+      "id": 72,
+      "name_en": "Regata"
+    }
+  ],
+  "success": true,
+  "message": ""
+}

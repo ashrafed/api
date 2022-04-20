@@ -1,0 +1,23 @@
+{
+  "name": "Abd elrahman updated",
+  "description": "shop description",
+  "favorite_language": "en",
+  "place_type_id": 2,
+  "responsible_person": "Abd elrahman",
+  "cr_number": 1231231231,
+  "cr_picture": "qQ2hez8zH1RmGScBNaTGHuhXsUJB7S0A0XGG4Ori.png",
+  "is_provide_warranty": 1,
+  "is_provide_replace_parts": 1,
+  "latitude": "24.753690282046346",
+  "longitude": "46.76948548193361",
+  "main_image": "main123.jpg",
+  "city_id": 1,
+  "images": [
+    "asd123.png",
+    "asd234.jpg"
+  ],
+  "brands": [65,66,2],
+  "specialized_brands": [3,1],
+  "order_type": [1],
+  "malfunctions": [1,5]
+}
