@@ -16,8 +16,21 @@
     "asd123.png",
     "asd234.jpg"
   ],
-  "brands": [65,66,2],
-  "specialized_brands": [3,1],
-  "order_type": [1],
-  "malfunctions": [1,5]
+  "brands": [
+    {
+      "id": 65,
+      "engine_types": [1, 2, 3]
+    }
+  ],
+  "specialized_brands": [
+    3,
+    1
+  ],
+  "order_type": [
+    1
+  ],
+  "malfunctions": [
+    1,
+    5
+  ]
 }

@@ -1,6 +1,6 @@
 package Constants;
 
-import Auth.main_Class;
+import Auth.Login_Main;
 import com.shaft.api.RestActions;
 import com.shaft.driver.DriverFactory;
 import com.shaft.validation.Validations;
@@ -11,13 +11,13 @@ import org.testng.annotations.Test;
 
 public class Get_Backend_Error_Translations {
     private RestActions apiobject;
-    private main_Class maain_Class;
+    private Login_Main maain_Class;
     private Get_Backend_Error_Translations_Main get_Backend_Error_Translations_Main;
 
     @BeforeClass
     public void beforeclass() {
-        apiobject = DriverFactory.getAPIDriver(main_Class.BASE_URL);
-        maain_Class = new main_Class(apiobject);
+        apiobject = DriverFactory.getAPIDriver(Login_Main.BASE_URL);
+        maain_Class = new Login_Main(apiobject);
         get_Backend_Error_Translations_Main = new Get_Backend_Error_Translations_Main(apiobject);
     }
 
@@ -467,8 +467,8 @@ public class Get_Backend_Error_Translations {
     public void Get_Backend_Error_Translations_successfully_49() {
         Response Get_Backend_Error_Translations_Response = get_Backend_Error_Translations_Main.Get_Backend_Error_Translations_successfully();
         Validations.assertThat().response(Get_Backend_Error_Translations_Response)
-                .extractedJsonValue("data[49].key")
-                .contains("err_order_status_otp_should_be_number")
+                .extractedJsonValue("data[49].translation")
+                .contains("رمز التحقق يجب أن يكون أرقام")
                 .perform();
     }
     @Test

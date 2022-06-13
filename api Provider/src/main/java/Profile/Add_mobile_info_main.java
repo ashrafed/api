@@ -32,7 +32,6 @@ public class Add_mobile_info_main {
         add_mobile_info_Body.put("longitude", longitude);
         return apiobject.buildNewRequest(add_mobile_info_URL, RestActions.RequestType.POST)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .setRequestBody(add_mobile_info_Body)
                 .performRequest();

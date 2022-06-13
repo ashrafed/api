@@ -15,15 +15,11 @@ public class Get_environment_variable_info_Main {
 
     public Response Get_environment_variable_info_Successfully(String user_id){
 
-        JSONObject Get_environment_variable_info_Body =new  JSONObject();
-        Get_environment_variable_info_Body.put("user_id" ,user_id);
 
         return apiobject.buildNewRequest(Get_environment_variable_info_URL, RestActions.RequestType.GET)
                 .setContentType(ContentType.JSON)
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .addHeader("Accept", "application/json")
-                .setRequestBody(Get_environment_variable_info_Body)
                 .performRequest();
     }
-
 }

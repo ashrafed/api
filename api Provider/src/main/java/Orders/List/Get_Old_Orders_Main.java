@@ -15,7 +15,6 @@ public class Get_Old_Orders_Main {
     public Response Success_Get_Old_Orders(){
         return apiobject.buildNewRequest(Get_Old_Orders_URL , RestActions.RequestType.POST)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .addHeader("Accept-Language" , "ar")
                 .performRequest();

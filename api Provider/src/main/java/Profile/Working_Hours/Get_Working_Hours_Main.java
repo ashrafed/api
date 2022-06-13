@@ -17,7 +17,6 @@ public class Get_Working_Hours_Main {
     public Response Get_Working_Hours(){
         return apiobject.buildNewRequest(Get_Working_Hours_URL , RestActions.RequestType.GET)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .performRequest();
     }

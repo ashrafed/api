@@ -1,6 +1,7 @@
 package Orders.Change_Status.Receive_Car;
 
-import Auth.main_Class;
+import Auth.Login_Main;
+import Orders.Change_Status.Receive_Car.Car_Under_examination_Main_2;
 import com.shaft.api.RestActions;
 import com.shaft.driver.DriverFactory;
 import com.shaft.validation.Validations;
@@ -12,14 +13,14 @@ import org.testng.annotations.Test;
 public class Car_Under_examination_2 {
     private RestActions apiobject ;
     private Car_Under_examination_Main_2 car_Under_examination_Main_2;
-    private main_Class maain_Class;
+    private Login_Main login_main;
 
     @BeforeClass
     public void beforclass(){
-        apiobject = DriverFactory.getAPIDriver(main_Class.BASE_URL);
-        maain_Class = new main_Class(apiobject);
+        apiobject = DriverFactory.getAPIDriver(Login_Main.BASE_URL);
+        login_main = new Login_Main(apiobject);
         car_Under_examination_Main_2 = new Car_Under_examination_Main_2(apiobject);
-        maain_Class.login("966506425181" , "123456");
+        login_main.login(Login_Main.Mobile_Number, Login_Main.Password);
     }
     @Test
     @Description("check message with true status")

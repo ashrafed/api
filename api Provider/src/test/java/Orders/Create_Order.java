@@ -1,7 +1,7 @@
 package Orders;
 
-import Auth.main_Class;
-import Orders.Invitation.Accept_Order_Invitation_Request_Main;
+import Auth.Login_Main;
+import Orders.Create_Order_Main;
 import com.shaft.api.RestActions;
 import com.shaft.driver.DriverFactory;
 import com.shaft.validation.Validations;
@@ -13,14 +13,14 @@ import org.testng.annotations.Test;
 public class Create_Order {
     private RestActions apiobject ;
     private Create_Order_Main create_Order_Main;
-    private main_Class maain_Class;
+    private Login_Main login_main;
 
     @BeforeClass
     public void beforclass(){
-        apiobject = DriverFactory.getAPIDriver(main_Class.BASE_URL);
-        maain_Class = new main_Class(apiobject);
+        apiobject = DriverFactory.getAPIDriver(Login_Main.BASE_URL);
+        login_main = new Login_Main(apiobject);
         create_Order_Main = new Create_Order_Main(apiobject);
-        maain_Class.login("966506425181" , "123456");
+        login_main.login(Login_Main.Mobile_Number, Login_Main.Password);
     }
     @Test
     @Description("body written as postman no changes in parameters")

@@ -1,6 +1,6 @@
 package Profile.Working_Hours;
 
-import Auth.main_Class;
+import Auth.Login_Main;
 import com.shaft.api.RestActions;
 import com.shaft.driver.DriverFactory;
 import com.shaft.validation.Validations;
@@ -11,17 +11,21 @@ import org.testng.annotations.Test;
 
 public class Add_Working_Hours {
     private RestActions apiobject;
-    private main_Class maain_Class;
+    private Login_Main login_main;
     private Add_Working_Hours_Main add_Working_Hours_Main;
+
+    public Add_Working_Hours (RestActions apiobject){
+        this.apiobject = apiobject;
+    }
 
 
 
     @BeforeClass
     public void beforeclass() {
-        apiobject = DriverFactory.getAPIDriver(main_Class.BASE_URL);
-        maain_Class = new main_Class(apiobject);
+        apiobject = DriverFactory.getAPIDriver(Login_Main.BASE_URL);
+        login_main = new Login_Main(apiobject);
         add_Working_Hours_Main = new Add_Working_Hours_Main(apiobject);
-        maain_Class.login("966506425181" , "123456");
+        login_main.login(Login_Main.Mobile_Number, Login_Main.Password);
     }
 
 

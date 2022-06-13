@@ -16,7 +16,6 @@ public class Create_Dump_Orders_Main {
     public Response Get_Notifications(){
         return apiobject.buildNewRequest(Create_Dump_Orders_URL , RestActions.RequestType.GET)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .performRequest();
     }

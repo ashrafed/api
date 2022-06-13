@@ -16,7 +16,6 @@ public class Fake_Initial_Order_Status_Main {
     public Response Get_Notifications(){
         return apiobject.buildNewRequest(Fake_Initial_Order_Status_URL , RestActions.RequestType.GET)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .setTargetStatusCode(500)
                 .performRequest();

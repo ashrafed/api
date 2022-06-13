@@ -36,7 +36,6 @@ public class Register_Main {
 
         return apiobject.buildNewRequest(Register_URL, RestActions.RequestType.POST)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .setRequestBody(jsontestdatafile)
                 .setTargetStatusCode(422)

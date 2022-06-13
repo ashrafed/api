@@ -13,7 +13,6 @@ public class Get_order_details_Main {
     public Response SuccessGet_order_details(){
         return apiobject.buildNewRequest(Get_order_details_URL , RestActions.RequestType.GET)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .addHeader("Accept-Language" , "ar")
                 .performRequest();

@@ -16,20 +16,21 @@ public class Update_provider_info_Main {
     }
 
     public Response update_provider_info(){
-        String update_provider_info_Body = FileActions.readFromFile(Update_provider_info_Body_File_Path);
+        String update_provider_info_Body = FileActions.getInstance().readFromFile(Update_provider_info_Body_File_Path);
 
         return apiobject.buildNewRequest(Update_provider_info_URL, RestActions.RequestType.POST)
                 .setContentType(ContentType.JSON)
                 .addHeader("Accept", "careferProviderApplication2Ej!%")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .setRequestBody(update_provider_info_Body)
+                .setTargetStatusCode(422)
                 .performRequest();
     }
 
     public Response update_provider_info_failed(String name, String description, String favorite_language,
             String place_type_id, String responsible_person, String cr_number, String cr_picture,
             String is_provide_warranty, String is_provide_replace_parts, String latitude, String longitude,
-            String main_image, String city_id, String images, String brands, String specialized_brands, 
+            String main_image, String city_id, String images, String brands, String specialized_brands,
             String order_type, String malfunctions){
 
         JSONObject update_provider_info_Body =new  JSONObject();

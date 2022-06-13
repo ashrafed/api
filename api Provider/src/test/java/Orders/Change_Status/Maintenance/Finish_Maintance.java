@@ -1,6 +1,7 @@
 package Orders.Change_Status.Maintenance;
 
-import Auth.main_Class;
+import Auth.Login_Main;
+import Orders.Change_Status.Maintenance.Finish_Maintance_Main;
 import com.shaft.api.RestActions;
 import com.shaft.driver.DriverFactory;
 import com.shaft.validation.Validations;
@@ -11,15 +12,15 @@ import org.testng.annotations.Test;
 
 public class Finish_Maintance {
     private RestActions apiobject;
-    private main_Class maain_class;
+    private Login_Main login_main;
     private Finish_Maintance_Main finish_Maintance_Main;
 
     @BeforeClass
     public void beforclass(){
-        apiobject = DriverFactory.getAPIDriver(main_Class.BASE_URL);
-        maain_class = new main_Class(apiobject);
+        apiobject = DriverFactory.getAPIDriver(Login_Main.BASE_URL);
+        login_main = new Login_Main(apiobject);
         finish_Maintance_Main = new Finish_Maintance_Main(apiobject);
-        maain_class.login("966506425181" , "123456");
+        login_main.login(Login_Main.Mobile_Number, Login_Main.Password);
     }
     @Test
     @Description("Validate on message with Body 'status equal 70' ")

@@ -3,6 +3,7 @@ package Orders.List;
 import com.shaft.api.RestActions;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.json.simple.JSONObject;
 
 public class Get_Pending_orders_Main {
     private RestActions apiobject;
@@ -17,7 +18,6 @@ public class Get_Pending_orders_Main {
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .addHeader("Accept-Language" , "ar")
                 .addHeader("Accept", "application/json")
-                .setTargetStatusCode(404)
                 .performRequest();
     }
 }

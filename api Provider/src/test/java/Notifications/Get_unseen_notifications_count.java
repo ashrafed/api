@@ -1,6 +1,6 @@
 package Notifications;
 
-import Auth.main_Class;
+import Auth.Login_Main;
 import com.shaft.api.RestActions;
 import com.shaft.driver.DriverFactory;
 import com.shaft.validation.Validations;
@@ -11,17 +11,17 @@ import org.testng.annotations.Test;
 
 public class Get_unseen_notifications_count {
     private RestActions apiobject;
-    private main_Class maain_Class;
+    private Login_Main login_main;
     private Get_unseen_notifications_count_Main get_unseen_notifications_count_main;
 
 
     @BeforeClass
     public void beforeclass() {
-        apiobject = DriverFactory.getAPIDriver(main_Class.BASE_URL);
-        maain_Class = new main_Class(apiobject);
+        apiobject = DriverFactory.getAPIDriver(Login_Main.BASE_URL);
+        login_main = new Login_Main(apiobject);
         get_unseen_notifications_count_main = new Get_unseen_notifications_count_Main(apiobject);
+        login_main.login(Login_Main.Mobile_Number, Login_Main.Password);
 
-        maain_Class.login("966506425181" , "123456");
     }
 
     @Test
@@ -35,3 +35,6 @@ public class Get_unseen_notifications_count {
                 .perform();
     }
 }
+
+
+

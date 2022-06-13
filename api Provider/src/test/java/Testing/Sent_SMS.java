@@ -1,6 +1,6 @@
 package Testing;
 
-import Auth.main_Class;
+import Auth.Login_Main;
 import com.shaft.api.RestActions;
 import com.shaft.driver.DriverFactory;
 import com.shaft.validation.Validations;
@@ -12,15 +12,15 @@ import org.testng.annotations.Test;
 public class Sent_SMS {
     private RestActions apiobject ;
     private Sent_SMS_Main sent_SMS_Main;
-    private main_Class maain_Class;
+    private Login_Main login_main;
 
 
     @BeforeClass
     public void beforclass(){
-        apiobject = DriverFactory.getAPIDriver(main_Class.BASE_URL);
-        maain_Class = new main_Class(apiobject);
+        apiobject = DriverFactory.getAPIDriver(Login_Main.BASE_URL);
+        login_main = new Login_Main(apiobject);
         sent_SMS_Main = new Sent_SMS_Main(apiobject);
-        maain_Class.login("966506425181" , "123456");
+        login_main.login(Login_Main.Mobile_Number, Login_Main.Password);
     }
     @Test
     @Description("check Sent SMS")

@@ -1,6 +1,6 @@
 package Constants;
 
-import Auth.main_Class;
+import Auth.Login_Main;
 import com.shaft.api.RestActions;
 import com.shaft.driver.DriverFactory;
 import com.shaft.validation.Validations;
@@ -11,14 +11,16 @@ import org.testng.annotations.Test;
 
 public class Get_Constants {
     private RestActions apiobject;
-    private main_Class maain_Class;
+    private Login_Main maain_Class;
     private Get_Constants_Main get_Constants_Main;
 
     @BeforeClass
     public void beforeclass() {
-        apiobject = DriverFactory.getAPIDriver(main_Class.BASE_URL);
-        maain_Class = new main_Class(apiobject);
+        apiobject = DriverFactory.getAPIDriver(Login_Main.BASE_URL);
+        maain_Class = new Login_Main(apiobject);
         get_Constants_Main = new Get_Constants_Main(apiobject);
+
+       // maain_Class.login("966556677888","123456");
     }
     @Test
     @Description("Get Constants successfully")

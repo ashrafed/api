@@ -25,7 +25,6 @@ public class Change_mobile_number_Main {
 
         return apiobject.buildNewRequest(change_mobile_number_request_URL , RestActions.RequestType.POST)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .setRequestBody(Change_mobile_number_Body)
                 .setTargetStatusCode(422)

@@ -16,7 +16,6 @@ public class Get_unseen_notifications_count_Main {
     public Response Get_Working_Hours(){
         return apiobject.buildNewRequest(Get_unseen_notifications_count_URL , RestActions.RequestType.GET)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 .performRequest();
     }

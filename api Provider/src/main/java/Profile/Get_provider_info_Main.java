@@ -16,7 +16,6 @@ public class Get_provider_info_Main {
     public Response Get_provider_info(){
         return apiobject.buildNewRequest(Get_provider_info_URL , RestActions.RequestType.GET)
                 .setContentType(ContentType.JSON)
-                .addHeader("Host", "<calculated when request is sent>")
                 .addHeader("Platform", "careferProviderApplication2Ej!%")
                 //.addHeader("Authorization", "Bearer " + token)
                 .performRequest();
